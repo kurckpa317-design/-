@@ -1,0 +1,6 @@
+{
+  "name": "AI Castle Defense",
+  "description": "A strategic castle defense game featuring an adaptive Gemini AI commander and tactical advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
