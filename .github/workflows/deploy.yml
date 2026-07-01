@@ -2,10 +2,13 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: 'main'
+    branches: ['main']
 
+# Даем процессу необходимые права для деплоя
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
